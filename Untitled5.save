@@ -1,0 +1,15 @@
+ #include   <iostream>
+ using namespace std;
+ 
+ int main(){
+  int i;
+  int arrayOfEven[]={}
+  for(i=0 ;i<=100 ; i++){
+  if( i % 2= 0){
+   arrayOfEven[i-1]= i
+  
+  }
+  }
+  
+  return 0;
+ }

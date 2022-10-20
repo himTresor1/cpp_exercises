@@ -1,0 +1,15 @@
+ #include   <iostream>
+ using namespace std;
+
+ int main(){
+ int a=2 ;
+ int b =5 ;
+ cout << "The first number is 2";
+ cout<< " The second number is 5";
+ swap(int a , int b);
+ cout<< "After swapping the first is :"<<a << endl;
+  cout<< "After swapping the second is :"<<b << endl;
+  
+
+  return 0;
+ }
